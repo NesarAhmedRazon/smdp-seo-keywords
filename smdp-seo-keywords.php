@@ -29,7 +29,7 @@ class Smdp_Custom_SEO_Metabox {
         foreach ($screens as $screen) {
             add_meta_box(
                 'smdp_custom_seo_metabox',
-                'SEO Keywords',
+                'Custom SEO Keywords',
                 [$this, 'smdp_render_meta_box'],
                 $screen,
                 'normal',
