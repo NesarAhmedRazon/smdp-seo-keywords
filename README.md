@@ -1,14 +1,14 @@
 # Custom SEO Keywords
 
-**Plugin URI:** https://github.com/NesarAhmedRazon/smdp-seo-keywords
-**Description:** A simple plugin to add custom SEO keywords to WordPress posts, pages, and products.
-**Version:** 0.0.1
-**Author:** Nesar Ahmed
-**Author URI:** https://nesarahmed.dev/
-**License:** GPL-2.0-or-later
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
-**Text Domain:** smdp-seo-keywords
-**Domain Path:** /languages
+**Plugin URI:** https://github.com/NesarAhmedRazon/smdp-seo-keywords<br>
+**Description:** A simple plugin to add custom SEO keywords to WordPress posts, pages, and products.<br>
+**Version:** 0.0.1<br>
+**Author:** Nesar Ahmed<br>
+**Author URI:** https://nesarahmed.dev/<br>
+**License:** GPL-2.0-or-later<br>
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html<br>
+**Text Domain:** smdp-seo-keywords<br>
+**Domain Path:** /languages<br>
 
 ## Description
 
@@ -16,7 +16,7 @@ The Custom SEO Keywords plugin provides a straightforward way to add specific me
 
 ## Installation
 
-1.  **Upload:** Upload the entire `smdp-seo-keywords` folder to the `/wp-content/plugins/` directory.
+1.  **Upload:** Upload the entire `smdp-seo-keywords` folder to the `/wp-content/plugins/` directory.<br>
 2.  **Activate:** Activate the plugin through the 'Plugins' menu in your WordPress admin area.
 
 ## Usage
@@ -38,21 +38,21 @@ The keywords you enter will be automatically added to the `<head>` section of th
 
 ## Frequently Asked Questions
 
-**Q: Are meta keywords still important for SEO?**
+**Q: Are meta keywords still important for SEO?**<br>
 A: The importance of meta keywords has diminished significantly for major search engines like Google. They primarily focus on the actual content of your page. However, some smaller search engines or niche platforms might still consider them. This plugin provides the option if you believe they are relevant to your specific needs.
 
-**Q: How do I add multiple keywords?**
+**Q: How do I add multiple keywords?**<br>
 A: Simply enter each keyword or phrase separated by a comma in the "Custom SEO Keywords" textarea. For example: `WordPress SEO, SEO plugin, custom keywords, website optimization`.
 
-**Q: Will this plugin conflict with other SEO plugins?**
+**Q: Will this plugin conflict with other SEO plugins?**<br>
 A: This plugin is designed to be lightweight and specifically focuses on adding the meta keywords tag. It should generally not conflict with other comprehensive SEO plugins that handle various aspects of SEO. However, if you are using another plugin that also manages meta keywords, you might want to choose one or the other to avoid redundancy.
 
-**Q: Can I add keywords to custom post types?**
+**Q: Can I add keywords to custom post types?**<br>
 A: Currently, the plugin is configured to add the metabox to the default `post`, `page`, and `product` post types. Extending it to other custom post types would require code modifications.
 
 ## Changelog
 
-### Version 0.0.1 (YYYY-MM-DD)
+### Version 0.0.1
 * Initial release of the Custom SEO Keywords plugin.
 * Adds a metabox to posts, pages, and products for entering custom SEO keywords.
 * Injects the custom keywords into the `<head>` section of the page.
